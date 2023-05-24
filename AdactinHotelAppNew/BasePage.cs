@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace AdactinHotelAppNew
 {
     public class BasePage
     {
         public static IWebDriver driver;
 
-
+        public static string dirpath = "C:\\ExtentReports\\" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + "\\";
 
         public IWebDriver ChromeOpen()
         {
