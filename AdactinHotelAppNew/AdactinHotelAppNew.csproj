@@ -48,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
     <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.4.9.1\lib\net47\WebDriver.dll</HintPath>
     </Reference>
@@ -64,6 +65,9 @@
     <Compile Include="POM\SearchPage\SearchPageLocators.cs" />
     <Compile Include="POM\SearchPage\SearchPageMethods.cs" />
     <Compile Include="POM\SearchPage\SearchPageTC.cs" />
+    <Compile Include="POM\SelectPage\SelectPageLocator.cs" />
+    <Compile Include="POM\SelectPage\SelectPageMethods.cs" />
+    <Compile Include="POM\SelectPage\SelectPageTC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
