@@ -59,6 +59,9 @@
   <ItemGroup>
     <Compile Include="BasePage.cs" />
     <Compile Include="Execution.cs" />
+    <Compile Include="POM\BookHotel\BookHotelLocators.cs" />
+    <Compile Include="POM\BookHotel\BookHotelMethods.cs" />
+    <Compile Include="POM\BookHotel\BookHotelTC.cs" />
     <Compile Include="POM\LoginPage\LoginPageLocators.cs" />
     <Compile Include="POM\LoginPage\LoginPageMethods.cs" />
     <Compile Include="POM\LoginPage\LoginPageTC.cs" />
